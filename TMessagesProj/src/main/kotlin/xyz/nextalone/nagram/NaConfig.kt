@@ -670,6 +670,12 @@ object NaConfig {
             ConfigItem.configTypeBool,
             false
         )
+    val disableUpdateDeleteMessages =
+        addConfig(
+            "DisableUpdateDeleteMessages",
+            ConfigItem.configTypeBool,
+            false
+        )
 
     private fun addConfig(
         k: String,
